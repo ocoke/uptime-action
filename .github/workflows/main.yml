@@ -25,6 +25,8 @@ jobs:
       run: |
         npm i
         node index.js
+        npm i prettier -g
+        prettier --write .
         
     - name: Deploy
       run: |
