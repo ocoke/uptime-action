@@ -10,7 +10,7 @@
 
 ## 配置文件
 
-**配置文件在  `./_config.js` 下：**
+**配置文件在 `./_config.js` 下：**
 
 ```js
 export default {
@@ -41,5 +41,4 @@ export default {
     // 节点名
     node: "GitHub Action",
 };
-
 ```
