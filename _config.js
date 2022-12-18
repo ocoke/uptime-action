@@ -19,6 +19,6 @@ export default {
     ],
     filedir: "./data/",
     filename: "{{@date}}.json",
-    limit: 3,
-    node: "Action",
+    limit: 240,
+    node: "GitHub Action",
 };
