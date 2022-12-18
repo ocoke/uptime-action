@@ -33,5 +33,5 @@ jobs:
         git config --global user.name "iColaBot"
         git config --global user.email "icolabot@e.yfun.top"
         git add .
-        git commit -m ":zap: Update Data!!"
+        git commit -m ":zap: Update"
         git push origin master
