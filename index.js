@@ -71,6 +71,7 @@ const run = async() => {
   return data;
 }
 (async() => {
+  console.info(cfg);
   let data;
   try {
     data = await run();
@@ -103,9 +104,9 @@ const run = async() => {
     let arr = []
     for (let i in index) {
       if (i != 0) arr[i-1] = index[i];
-      
     }
     index = arr;
   }
+  console.log(cfg.filedir+"index.json");
   fs.writeFileSync(cfg.filedir+"index.json", JSON.stringify(index));
 })();

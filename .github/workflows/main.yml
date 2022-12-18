@@ -27,7 +27,9 @@ jobs:
         node index.json
         
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.TOKEN }}
-        publish_dir: ./data
+      run: |
+        git config --global user.name "iColaBot"
+        git config --global user.email "icolabot@e.yfun.top"
+        git add .
+        git commit -m ":zap: Update Data!!"
+        git push origin master
