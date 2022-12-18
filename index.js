@@ -107,6 +107,6 @@ const run = async() => {
     }
     index = arr;
   }
-  console.log(cfg.filedir+"index.json");
+  console.log("Index File: "+cfg.filedir+"index.json");
   fs.writeFileSync(cfg.filedir+"index.json", JSON.stringify(index));
 })();

@@ -24,7 +24,7 @@ jobs:
     - name: Install & Build
       run: |
         npm i
-        node index.json
+        node index.js
         
     - name: Deploy
       run: |
