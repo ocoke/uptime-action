@@ -10,7 +10,7 @@
                 "validFor": ["yfun.top"]
             },
             "ok": true,
-            "time": 1671337181301,
+            "time": 1671337478709,
             "name": "YFun's Home"
         },
         "blog.yfun.top:443": {
@@ -23,11 +23,11 @@
                 "validFor": ["blog.yfun.top"]
             },
             "ok": true,
-            "time": 1671337181796,
+            "time": 1671337479285,
             "name": "YFun's Blog"
         }
     },
     "status": true,
-    "time": 1671337181796,
+    "time": 1671337479285,
     "node": "Action"
 }
